@@ -1,9 +1,10 @@
 import React from 'react';
+import Table from './Table';
 
 function Invoice() {
   return (
-      <div class="mb-3">
-       <p>Здравствуйте, Роман Алексеевич</p>
+      <div className="mb-3">
+       <Table />
       </div>
   );
 }
